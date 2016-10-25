@@ -1,7 +1,5 @@
-<div class="story-block">
-{{#each model as |story-from-template|}}
-  <div class="row">
-    {{story-tile story-in-component=story-from-template}}
-  </div>
-  {{/each}}
+<div>
+    {{#each model as |story|}}
+    {{story-tile story=story}}
+    {{/each}}
 </div>

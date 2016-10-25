@@ -6,6 +6,20 @@ html {
   text-align: center;
 }
 
+.article-image {
+  width: 461px;
+  height: 245px;
+}
+
+.story-block {
+  width: 700px;
+  margin: 50px auto;
+  border: 0 none;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f7f7f7;
   font-family: proxima-nova-reg, Helvetica, Arial, sans-serif;
@@ -33,6 +47,8 @@ body {
   text-align: left;
   z-index: 1;
 }
+
+
 
 div {
   display: block;
